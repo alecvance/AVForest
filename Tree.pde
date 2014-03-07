@@ -8,7 +8,7 @@ class Tree {
   float a1 = random(0.010, 0.015)/4;
   float a2 = random(0.015, 0.025)/4;
   float a3 = random(0.013, 0.023)/4;
-  float maxAngle = random(20,45);
+  float maxAngle = random(20,90);
 
   Tree(float _x, float _y, float _len) {
     this.x = _x;
