@@ -4,17 +4,15 @@
  */
 
 
-int numTrees = 3;
-float startLen = 40;
+int numTrees =9;
 
 Tree[] trees = new Tree[numTrees];
 
 void setup() {
   size(1100, 800);
-  float spacingW = width/numTrees;
-  float spacingH = height/8;
   for (int i=0; i< numTrees; i++) {
-    trees[i]= new Tree(spacingW/2+spacingW*i, spacingH*6-spacingH*(i%2), startLen);
+  //  trees[i]= new Tree(150+100*i, 600-100*(i%2), 40);
+  trees[i]= new Tree(random(width), 700-random(100), 10+random(50));
   }
 }
 
